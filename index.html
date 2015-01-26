@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mock Restaurant</title>
+        <meta name="description" content="A mock restaurant by Josh Rosen">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+      
+          <!--[if lt IE 7]>
+              <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+          <![endif]-->
+
+          <!-- Add your site or application content here -->
+
+          <!-- The header contains two titles and a background picture -->
+      <header>
+
+        <h1 id="title">Restaurant Website</h1> 
+        <p id="title2">A mock Restaurant Template</p>
+        <p></p>
+          <!-- The nav bar contains clickable dom objects to access different content -->
+        <nav>
+          <ul>
+            <li class="nav" id="About">About</li><!--
+          --><li class="nav" id="Menu">Menu</li><!--
+          --><li class="nav" id="Wine">Wine List</li><!--
+          --><li class="nav" id="Hours">Hours</li><!--
+          --><li class="nav" id="Location">Location</li><!--
+          --><li class="nav" id="Contact">Contact</li><!--
+        --></ul> 
+        </nav>
+      </header>
+      
+      <!-- <section> gives the main info about the website and through jQuery, displays the different nav bar information -->
+
+      <section id="Aboutme">
+
+      <!-- About is the default page, it shows info about the site as well as me -Josh -->
+
+        <div class="bod" id="About">
+          <h2>Hi I'm Josh. This is a restaurant website template I built with HTML, CSS, jQuery, and boilerplate.</h2>
+          <h4>Please feel free to look around, click some links, and email me with any suggestions or comments.</h4>
+          <h6>This is a picture of me with some camels!</h6>
+          <img id="picofme" src="img/me/10498679_10152481687616387_3895732059595291624_o.jpg">
+        </div>
+
+      <!-- Menu displays the menu of the Restaurant -->
+
+        <div class="bod" id="Menu">
+          <h2>Menu</h2>
+          <h3>Appetizers</h3>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+          <h3>Main Course</h3>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+          <h3>Dessert</h3>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+        </div>
+
+      <!-- Wine contains the Restaurant's winelist -->
+        
+        <div class="bod" id="Wine">
+          <h2>Wine List</h2>
+          <h3>Red Wine</h3>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+          <h3>White Wine</h3>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+          <h3>Sparkling Wine</h3>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+            <p>addme</p>
+        </div>
+
+        <!-- Hours gives the Hours of operation of the Restaurant: I may merge Hours/Location together -->
+
+        <div class="bod" id="Hours">
+          <h2>Hours</h2>
+          </div>
+
+        <!-- Location gives the Location of the Restaurant: I am in the process of adding a movable google maps window into this area -->
+
+        <div class="bod" id="Location">
+          <h2>Location</h2>
+          <div id="map-canvas"></div>
+        </div>
+      
+        <!-- The contact information of the website: May also add a reservation functionality -->
+
+        <div class="bod" id="Contact">
+          <h2>Contact</h2>
+          </div>
+        </section>
+     
+        <!-- The footer contains some basic contact info as well as info about the project-->
+        <footer id="foot">
+          <ul>
+              <li>Created by: Josh Rosen</li>
+              <li>This is a mock website for my portfolio</li>
+              <li>Contact: <a href="jdrosen@ucdavis.edu">jdrosen@ucdavis.edu</a></li>
+              </li>
+          </ul> 
+        </footer>
+
+          <!-- These add scripts from boilerplate as well as my custom javascript/jQuery script -->
+
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+          <script src="js/plugins.js"></script>
+          <script src="js/main.js"></script>
+
+          <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+          <script>
+              (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+              function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+              e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+              e.src='//www.google-analytics.com/analytics.js';
+              r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+              ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        
+    </body>
+</html>
